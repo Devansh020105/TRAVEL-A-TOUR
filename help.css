@@ -1,0 +1,198 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    z-index: 1;
+    color: rgb(0, 0, 0);
+}
+.navbar .logo{
+    display: flex;
+    align-items: center;
+}
+.navbar .logo img{
+    height: 4em;
+}
+.navbar .searchbox input{
+    width: 30em;
+    height: 3em;
+    /* border-radius: 2px solid black; */
+    border-radius: 10px;
+    border: 1px solid rgb(0, 0, 0);
+    /* opacity: 0.5; */
+}
+.navbar .searchbox img{
+    position: absolute;
+    top: 14px;
+    height: 30px;
+    left: 62vw;
+}
+.header-content{
+    box-sizing: border-box;
+    padding: 10vh;
+    height: 50vh;
+    /* border: 2px solid black; */
+    display: flex;
+    flex-direction: column;
+    justify-content: top;
+    align-items: left;
+    /* background-color: rgb(209, 142, 132); */
+    padding-left: 120px;
+}
+.header-content h1{
+    font-size: 30px;
+    padding-bottom: 45px;
+}
+.header-content .search{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.header-content .search .box{
+
+    display: flex;
+    /* flex-direction: column; */
+    gap: 20px;
+}
+.header-content .search .box .booking{
+    display: flex;
+    flex-direction: column;
+}
+.header-content .search .box .email{
+    display: flex;
+    flex-direction: column;
+}
+.header-content .search .box input{
+    height: 3em;
+    width: 30em;
+    border:1px solid lightgray;
+}.header-content .search .box label{
+    font-size: 20px;
+}
+.header-content .search .btn{
+    border: 1px solid gray;
+    width: 11vw;
+    height: 40px;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+}
+
+.box1{
+    border:1px solid gray;
+    border-radius: 9px;
+}
+
+.one{
+    font-weight:600;
+}
+.header-content .search .btn{
+    background-color:  rgba(207, 38, 38, 0.644);
+
+    margin-top:10px;
+    padding:5px;
+    width: 300px;
+}
+.anchor a{
+    color: black;
+    font-size:1.2em;
+    text-decoration: none;
+}
+
+.container{
+    
+        max-width:1000px;
+        width:90%;
+        margin:0 auto;
+   
+}
+.page_two{
+    margin-left:8%
+}
+.question_{
+    width: 392px;
+    height: 52px;
+    border-radius: 9px;
+    font-size: 18px;
+}
+.question{
+    display: flex;
+}
+.booking_detail{
+    width: 50%;
+}
+.stillneedhelp{
+    display: flex;
+    gap: 112px;
+    margin-left: 112px;
+    padding-top: 92px;
+    padding-bottom: 92px;
+}
+
+.boxi{
+    border: solid ;
+    border-radius: 9px;
+    border-width: 1.5px;
+    width: 212px;
+    text-align: center;
+    padding-top: 7px;
+    cursor: pointer;
+}
+.contact_me{
+    display: flex;
+}
+.contact{
+    padding: 52px;
+}
+.socialmedia{
+    margin-left: 72%;
+    padding-top: 52px;
+}
+.page_two .question{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+}
+.page_two .question div{
+    line-height: 30px;
+}
+.page_two .question div a{
+    text-decoration: none;
+    color: rgb(211, 71, 118);
+}
+.page_two input{
+    margin-bottom: 50px;
+}
+.page_two h1{
+    margin-top: 20px;
+}
+.contact_me .contact{
+    display: flex;
+    gap: 10px;
+}
+.contact_me .contact .number{
+    display: flex;
+    gap: 10px;
+}
+.contact_me .contact .email{
+    display: flex;
+    gap: 10px;
+}
+.contact_me .socialmedia{
+    display: flex;
+    gap: 10px;
+} 
+.contact_me{
+    width: 90vw;
+    display: flex;
+}
+.other{
+    display: flex;
+    gap: 22px;
+    cursor: pointer;
+}

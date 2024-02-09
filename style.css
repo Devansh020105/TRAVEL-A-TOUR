@@ -1,0 +1,237 @@
+
+
+*{
+    padding: 0%;
+    margin: 0%;
+    font-family: "Baloo Bhaijaan 2", sans-serif;
+}
+body{
+    position: relative;
+}
+.video{
+    position: absolute;
+    top: -63px;
+    z-index: -1;
+}
+.search{
+    background-image: url(https://cdn3.iconfinder.com/data/icons/feather-5/24/search-512.png);
+}
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* box-shadow: 1px 1px 1px gray; */
+    z-index: 1;
+    /* background-color: transparent; */
+    /* opacity: 0.5; */
+    color: whitesmoke;
+}
+.navbar .logo{
+    display: flex;
+    align-items: center;
+}
+.navbar .logo img{
+    height: 4em;
+}
+.navbar .searchbox input{
+    width: 30em;
+    height: 3em;
+    /* border-radius: 2px solid black; */
+    border-radius: 10px;
+    border: 1px solid gray;
+    /* opacity: 0.5; */
+}
+.navbar .other ul{
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+    gap: 1em;
+    font-size: 20px;
+}
+.searchbox{
+    position: relative;
+}
+.searchbox img{
+    top: 5px;
+    height: 30px;
+    position: absolute;
+    right: 10px;
+}
+.video{
+    height: 300px;
+    width: 100%;
+    position: relative;
+}
+.video video {
+    width: 100%;height:90vh;
+
+    position: absolute;
+    object-fit: cover;
+    z-index: 0;
+  }
+  .video .caption {
+    z-index: 1;
+    position: relative;
+    text-align: center;
+    color:white;
+    padding: 250px;
+    font-size: 30px;
+  }
+  .input{
+    width: 392px;
+    height: 40px;
+    background: transparent;
+    border-radius: 6px;
+    border-color: aliceblue;
+    box-shadow: none;
+  }
+  .input.placeholder{
+    color: aliceblue;
+  }
+  .video .caption p{
+    /* border: 1px solid gray; */
+    font-size: 20px;
+  }
+  .topdestination div img{
+    height: 200px;
+  }
+  .topdestination{
+    position: absolute;
+    top: 90vh;
+    /* display: flex; */
+
+  }
+
+  .topdestination{
+    padding :5rem ;
+    padding-left: 6em;
+    padding-right:6em;
+    /* background-color: azure; */
+    width:50%;
+  }
+  .box3{
+    padding:6px;
+ 
+  }
+  .topdestination .pics{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 20px;
+    /* flex-wrap: wrap; */
+    /* flex-wrap: column; */
+    box-sizing: border-box;
+  }
+  .explore{
+    margin-left: 200px;
+    display: flex;
+    justify-content: right;
+  }
+  .explore_more{
+    /* display: flex;
+    justify-content: right; */
+    text-align: center;
+    margin-top: 20px;
+    /* padding-top: 9%; */
+    /* font-size: small; */
+    height: 30px;
+    font-size:10px ;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    width: 200px;
+    border-radius: 10px;
+    cursor: pointer;
+    color: black;
+  }
+  .explore_more:hover{
+    transform: scaleX(1.2) scaleY(1.2);
+    background-color: beige;
+  }
+  .reccomend .recc{
+    padding-left: 6em;
+    position: absolute;
+    top: 200vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 30px;
+    box-sizing: border-box;
+    /* border: 2px solid black; */
+    /* padding: 10px; */
+
+    /* height: 200px; */
+  }
+  .reccomend div img{
+    height: 200px;
+    width: 322px;
+    /* gap: 20px; */
+  }
+  .reccomend h3{
+    position: absolute;
+    top: 195vh;
+    left: 4em;
+    font-size: 25px;
+  }
+  .reccomend .recc div{
+    display: flex;
+    flex-direction: column;
+  }
+  .reccomend .recc .box .book{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .contact_me{
+    position: absolute;
+    top: 250vh;
+    height: 100px;
+    width: 100%;
+    /* background-color: black; */
+    display: flex;
+    justify-content: space-between;
+    padding-left: 6em;
+    align-items: flex-end;
+    padding-bottom: 20px;
+    font-size: 15px;
+  }
+  .reccomend .explore_more{
+    position: absolute;
+    top: 240vh;
+    left: 43%;
+  }
+  .navbar .other ul li a{
+    text-decoration: none;
+    color: white;
+  }
+  
+  .contact_me .contact{
+    display: flex;
+    gap: 10px;
+}
+.contact_me .contact .number{
+    display: flex;
+    gap: 10px;
+}
+.contact_me .contact .email{
+    display: flex;
+    gap: 10px;
+}
+.contact_me .socialmedia{
+    display: flex;
+    gap: 10px;
+} 
+.contact_me{
+    width: 90vw;
+    display: flex;
+    /* padding-right: 40px; */
+    top: 1600px;
+    position: relative;
+}
+
+.copy{
+    position: absolute;
+    text-align: center;
+    left: 45%;
+
+}
